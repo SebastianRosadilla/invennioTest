@@ -1,0 +1,7 @@
+<search-bar></search-bar>
+<div id="collection" ng-if="thumbnails.length">
+  <img ng-repeat="(index, thumbnail) in thumbnails"
+       src="{{thumbnail.high.url}}" alt="image not found"
+       ng-click="openVideo(index)">
+</div>
+<iframe ng-if="thumbnails.length" src="" frameborder="0" allowfullscreen></iframe>

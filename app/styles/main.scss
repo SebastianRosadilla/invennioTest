@@ -1,0 +1,11 @@
+@import 'vars';
+@import 'searchBar';
+@import 'collection';
+
+iframe {
+  height: 60%;
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  width: calc(100% - 300px);
+}
